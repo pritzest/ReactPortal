@@ -2,6 +2,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  background-color: #ffe8ec;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   width: 80%;
   max-width: 1330px;
   margin: 1em auto;
+  background-color: white;
 }
 
 @media (max-width: 769px) {
@@ -52,11 +54,13 @@ body {
 
 .input__container {
   margin-bottom: 1.5em;
+  background-color: white;
 }
 
 .input__title {
   font-size: 2rem;
   color: #ef4444;
+  background-color: white;
 }
 
 .input, .input--error, .input--success {
@@ -111,6 +115,7 @@ body {
   text-align: left;
   margin-bottom: 0.5em;
   color: #222;
+  background-color: white;
 }
 
 .list__item {
@@ -134,6 +139,7 @@ body {
 
 .button__container {
   margin-top: 2rem;
+  background-color: white;
 }
 
 .button, .button--primary, .button--secondary {
@@ -209,6 +215,11 @@ body {
 
 .password-container {
   display: block;
+  background-color: white;
+}
+
+.password {
+  background-color: white;
 }
 
 .validation {
@@ -221,10 +232,12 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 1em;
+  background-color: white;
 }
 
 .validation-item {
   margin-bottom: 0.85em;
+  background-color: white;
 }
 
 .validation-icon, .error, .success {
@@ -237,12 +250,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: white;
 }
 
 .error {
   color: #F2180A;
+  background-color: white;
 }
 
 .success {
   color: #11AF41;
+  background-color: white;
 }

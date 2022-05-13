@@ -343,7 +343,7 @@ class App extends React.Component {
                   Cancel
                 </button>
               </div>
-              <p className="block text-gray-700 text-sm font-bold mb-2"><Link to="/">Go to Login Page</Link></p>
+              <p className="block text-gray-700 text-sm font-bold mb-2 bg-white"><Link to="/" className="bg-white">Go to Login Page</Link></p>
             </section>
             
           );
