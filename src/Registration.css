@@ -39,6 +39,8 @@ body {
   padding: 4em;
   width: 75%;
   max-width: 769px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 769px) {
@@ -50,6 +52,11 @@ body {
 
 .input__container {
   margin-bottom: 1.5em;
+}
+
+.input__title {
+  font-size: 2rem;
+  color: #ef4444;
 }
 
 .input, .input--error, .input--success {
@@ -156,22 +163,24 @@ body {
 }
 
 .button--primary {
-  background: gray;
+  background-color: #f87171;
   color: white;
+  text-transform: uppercase;
 }
 
 .button--primary:hover {
-  background: #737373;
+  background-color: #fecaca;
 }
 
 .button--secondary {
-  background: transparent;
+  background-color: #991b1b;
   border: 1px solid gray;
-  color: gray;
+  color: white;
+  text-transform: uppercase;
 }
 
 .button--secondary:hover {
-  background: rgba(128, 128, 128, 0.05);
+  background-color: #f87171;
 }
 
 .pointer {
@@ -237,4 +246,3 @@ body {
 .success {
   color: #11AF41;
 }
-/*# sourceMappingURL=Registration.css.map */

@@ -203,6 +203,7 @@ class App extends React.Component {
         render() {
           return (
             <section className="account__container">
+                <label className="input__title"> Registration</label>
               <div className="input__container">
                 <label className="input__label">Student ID</label>
                 <input

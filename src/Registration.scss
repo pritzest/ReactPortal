@@ -51,6 +51,9 @@ body {
   padding: 4em;
   width: 75%;
   max-width: $break--lg;
+  margin-top: 3rem;
+  margin-bottom:2rem;
+
   
   @media (max-width: $break--lg) {
     padding: 3em 1em;
@@ -61,7 +64,10 @@ body {
 .input__container {
   margin-bottom: 1.5em;
 }
-
+.input__title{
+  font-size: 2rem;
+  color: #ef4444;
+}
 .input {
   padding: 0.75em;
   background-color: #F2F2F2;
@@ -161,23 +167,25 @@ body {
 
 .button--primary {
   @extend .button;
-  background: $color--primary;
+  background-color: #f87171;
   color: white;
+  text-transform: uppercase
 }
 
 .button--primary:hover {
-  background: darken($color--primary, 5%);
+  background-color: #fecaca;
 }
 
 .button--secondary {
   @extend .button;
-  background: transparent;
+  background-color: #991b1b;
   border: 1px solid $color--primary;
-  color: $color--primary;
+  color: white;
+  text-transform: uppercase
 }
 
 .button--secondary:hover {
-  background: rgba($color--primary, 0.05);
+  background-color: #f87171;
 }
 
 .pointer {
