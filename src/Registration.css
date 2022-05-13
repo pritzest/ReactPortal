@@ -1,0 +1,240 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  background: radial-gradient(circle, gray, #676767);
+}
+
+@media (max-width: 769px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+.container {
+  width: 80%;
+  max-width: 1330px;
+  margin: 1em auto;
+}
+
+@media (max-width: 769px) {
+  .container {
+    width: 100%;
+    padding: 1em;
+  }
+}
+
+.account__container {
+  display: block;
+  margin: 0 auto;
+  background: white;
+  border-radius: 1em;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 4em;
+  width: 75%;
+  max-width: 769px;
+}
+
+@media (max-width: 769px) {
+  .account__container {
+    padding: 3em 1em;
+    width: 100%;
+  }
+}
+
+.input__container {
+  margin-bottom: 1.5em;
+}
+
+.input, .input--error, .input--success {
+  padding: 0.75em;
+  background-color: #F2F2F2;
+  color: #222;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  border: 2px solid #F2F2F2;
+  margin-right: -3px;
+  width: 100%;
+  min-width: 325px;
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.input:focus, .input--error:focus, .input--success:focus {
+  border-color: gray;
+  background: rgba(128, 128, 128, 0.05);
+}
+
+@media (max-width: 769px) {
+  .input, .input--error, .input--success {
+    margin: 0;
+    padding: 0.7em;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.input--error {
+  border: 2px solid #F2180A;
+}
+
+.input--success {
+  border: 2px solid #11AF41;
+}
+
+.error-msg {
+  color: red !important;
+}
+
+.success-msg {
+  color: green;
+}
+
+.input__label {
+  display: block;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+.list__item {
+  margin-bottom: 0.6em;
+}
+
+@media (max-width: 641px) {
+  .list__item {
+    margin-bottom: 1em;
+  }
+}
+
+.list__label {
+  display: inline-block;
+  font-size: 0.688em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.button__container {
+  margin-top: 2rem;
+}
+
+.button, .button--primary, .button--secondary {
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  margin: 0 0.75em 0 0;
+  overflow: visible;
+  padding: 0.6em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+
+@media (max-width: 769px) {
+  .button, .button--primary, .button--secondary {
+    width: 100%;
+    font-size: 1.143em;
+    padding: inherit 0.7em;
+    margin-bottom: 1em;
+  }
+}
+
+.button--primary {
+  background: gray;
+  color: white;
+}
+
+.button--primary:hover {
+  background: #737373;
+}
+
+.button--secondary {
+  background: transparent;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.button--secondary:hover {
+  background: rgba(128, 128, 128, 0.05);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+.mobile-show {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .mobile-show {
+    display: block;
+  }
+}
+
+.password-container {
+  display: block;
+}
+
+.validation {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.validation-item {
+  margin-bottom: 0.85em;
+}
+
+.validation-icon, .error, .success {
+  display: inline-block;
+  margin-right: 0.5em;
+  width: 1.25em;
+}
+
+.validator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.error {
+  color: #F2180A;
+}
+
+.success {
+  color: #11AF41;
+}
+/*# sourceMappingURL=Registration.css.map */
