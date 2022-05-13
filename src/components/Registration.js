@@ -12,7 +12,7 @@ class App extends React.Component {
       );
     }
   };
-
+  
     
     class Registration extends React.Component {
         constructor(props) {
@@ -33,8 +33,14 @@ class App extends React.Component {
             charNumberValid: false,
             specialCharValid: false,
             uppercaseValid: false,
-            numberValid: false
+            numberValid: false,
+            isToggleOn: true
           }
+          this.handleClick.bind(this);
+        }
+
+        handleClick = () => {
+            alert('The details are being saved...');
         }
         
         checkPasswordLength = (password) => {
@@ -199,6 +205,7 @@ class App extends React.Component {
           
           this.username.focus();
         }
+        
        
         render() {
           return (
@@ -328,7 +335,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="button__container">
-                <button className="button--primary">Register</button>
+                <button className="button--primary" onClick={this.handleClick}>Register</button>
                 <button
                   className="button--secondary"
                   onClick={this.resetForm}
