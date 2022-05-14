@@ -318,7 +318,7 @@ class App extends React.Component {
                 <div className="validation">
                   <div className="validator">
                     <i className={this.state.charNumberValid ? "fas fa-check success" : "fas fa-times error"}></i>
-                    <p className="validation-item">at least 6 characters</p>
+                    <p className="validation-item">at least 8 characters</p>
                   </div>
                   <div className="validator">
                     <i className={this.state.specialCharValid ? "fas fa-check success" : "fas fa-times error"}></i>
